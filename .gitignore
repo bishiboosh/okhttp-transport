@@ -1,0 +1,22 @@
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+build/
+.externalNativeBuild/
+
+# Mac OS files
+.DS_Store
+
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+.gradle
+
+# Ignore Gradle GUI config
+gradle-app.setting
