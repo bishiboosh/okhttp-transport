@@ -9,7 +9,7 @@ import java.io.InputStream;
 
 public class OkHttpResponse extends LowLevelHttpResponse {
 
-    private Response response;
+    private final Response response;
 
     public OkHttpResponse(Response response) {
         this.response = response;

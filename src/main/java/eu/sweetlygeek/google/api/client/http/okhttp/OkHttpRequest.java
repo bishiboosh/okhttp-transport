@@ -16,13 +16,13 @@ import java.util.concurrent.TimeUnit;
 
 public class OkHttpRequest extends LowLevelHttpRequest {
 
-    private OkHttpClient client;
+    private final OkHttpClient client;
 
     private OkHttpClient.Builder clientBuilder;
 
-    private String method;
+    private final String method;
 
-    private String url;
+    private final String url;
 
     private Request.Builder requestBuilder;
 
